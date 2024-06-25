@@ -3,12 +3,12 @@ from lcdaily.treenode import TreeNode
 
 class Solution:
     def __init__(self):
-        self.val = None
-
-    def bstToGst(self, root: TreeNode) -> TreeNode:
         self.val = 0
 
+    def bstToGst(self, root: TreeNode) -> TreeNode:
+
         def dfs(node):
+
             # base case - null node
             if not node:
                 return
